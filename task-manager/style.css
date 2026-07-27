@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 70%;
+    padding: 8px;
+}
+
+button{
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.task{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: green;
+}
+
+.task button{
+    margin-left: 5px;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    color:gray;
+}
